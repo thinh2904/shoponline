@@ -4,7 +4,7 @@
       <a class="navbar-brand brand-logo" href="{{url('/')}}">
         <!-- <img src="images/logo.svg" alt="logo"/> -->
         <img style="width: 50px;height:50px;" src="https://hentaiz.in/wp-content/themes/ztube/assets/images/icon.png" alt="">
-        Shop Hentai
+        {{ $appSetting->website_name ?? 'Shop Hentai' }}
       </a>
       <!-- <button class="navbar-toggler navbar-toggler align-self-center" type="button" data-toggle="minimize">
         <span class="mdi mdi-sort-variant"></span>

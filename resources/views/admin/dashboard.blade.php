@@ -16,31 +16,31 @@
 
         <div class="row">
             <div class="col-md-3">
-                <div class="card card-body bg-primary text-white mb-3">
+                <div class="card card-body bg-primary text-white mb-3 text-center rounded">
                     <label>Tổng đơn hàng</label>
                     <h1>{{ $totalOrder }}</h1>
-                    <a href="{{ url('admin/orders') }}" class="text-white">Xem</a>
+                    <a style="text-decoration: none;" href="{{ url('admin/orders') }}" class="text-white">Xem</a>
                 </div>
             </div>
             <div class="col-md-3">
-                <div class="card card-body bg-success text-white mb-3">
+                <div class="card card-body bg-success text-white mb-3 text-center rounded">
                     <label>Số đơn hôm nay</label>
                     <h1>{{ $todayOrder }}</h1>
-                    <a href="{{ url('admin/orders') }}" class="text-white">Xem</a>
+                    <a style="text-decoration: none;" href="{{ url('admin/orders') }}" class="text-white">Xem</a>
                 </div>
             </div>
             <div class="col-md-3">
-                <div class="card card-body bg-warning text-white mb-3">
+                <div class="card card-body bg-warning text-white mb-3 text-center rounded">
                     <label>Tổng đơn tháng này</label>
                     <h1>{{ $thisMonthOrder }}</h1>
-                    <a href="{{ url('admin/orders') }}" class="text-white">Xem</a>
+                    <a style="text-decoration: none;" href="{{ url('admin/orders') }}" class="text-white">Xem</a>
                 </div>
             </div>
             <div class="col-md-3">
-                <div class="card card-body bg-danger text-white mb-3">
+                <div class="card card-body bg-danger text-white mb-3 text-center rounded">
                     <label>Tổng đơn cả năm</label>
                     <h1>{{ $thisYearOrder }}</h1>
-                    <a href="{{ url('admin/orders') }}" class="text-white">Xem</a>
+                    <a style="text-decoration: none;" href="{{ url('admin/orders') }}" class="text-white">Xem</a>
                 </div>
             </div>
         </div>

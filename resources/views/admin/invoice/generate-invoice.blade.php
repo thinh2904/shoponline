@@ -85,7 +85,7 @@
         <thead>
             <tr>
                 <th width="50%" colspan="2">
-                    <h2 class="text-center">Shop Hentai</h2>
+                    <h2 class="text-center">{{ $appSetting->website_name ?? 'Shop Hentai' }}</h2>
                     <img style="width:50px" src="https://hentaiz.in/wp-content/themes/ztube/assets/images/icon.png" alt="">
                 </th>
                 <th width="50%" colspan="2" class="company-data">
@@ -179,7 +179,7 @@
 
     <br>
     <p class="text-center">
-        Cám ơn bạn đã ủng hộ Shop Hentai
+        Cám ơn bạn đã ủng hộ {{ $appSetting->website_name ?? 'Shop Hentai' }}
     </p>
 
     <img style="display: block;margin-left: auto;margin-right: auto;width: 50px;" src="https://hentaiz.in/wp-content/themes/ztube/assets/images/icon.png" alt="">
