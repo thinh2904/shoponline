@@ -14,7 +14,7 @@
                     
                     <div class="p-4 shadow bg-white">
                         <img src="https://i.pinimg.com/originals/29/2c/9a/292c9ac0467abb4652c13e923167adf0.png" alt="Thank You">
-                        <h4>Cám ơn bạn đã mua hàng tại Shop Hentai</h4>
+                        <h4>Cám ơn bạn đã mua hàng tại Shop</h4>
                         <a href="{{ url('collections') }}" class="btn btn-primary">Mua Tiếp</a>
                     </div>
                 </div>

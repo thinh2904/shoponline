@@ -28,7 +28,7 @@ class DashboardController extends Controller
         $thisYear = Carbon::now()->format('Y');
 
         $totalOrder = Order::count();
-        $todayOrder = Order::whereDate('created_at',$todayDate)->count();
+        $todayOrder = Order::whereDay('created_at',$todayDate)->count();
         $thisMonthOrder = Order::whereMonth('created_at',$thisMonth)->count();
         $thisYearOrder = Order::whereYear('created_at',$thisYear)->count();
 
